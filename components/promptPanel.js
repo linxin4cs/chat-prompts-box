@@ -2,8 +2,6 @@ import { Button, TextField } from "@mui/material";
 import PromptItem from "./promptItem";
 import PromptModal from "./promptModal";
 import { useState } from "react";
-import axios from "axios";
-import Prompt from "../models/prompt";
 
 export default function PromptPanel({ prompts = [] }) {
   const [isPromptModalOpen, setIsPromptModalOpen] = useState(false);
