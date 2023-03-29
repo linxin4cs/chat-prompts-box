@@ -1,5 +1,5 @@
 import Head from "next/head";
-import PromptPanel from "../components/PromptPanel";
+import PromptPanel from "../components/promptPanel";
 import axios from "axios";
 
 export default function Home({ prompts }) {
