@@ -11,7 +11,7 @@ export default function PromptModal({ open, onClose, selectedPrompt }) {
 
   function handleOnClick() {
     try {
-      navigator.clipboard.writeText("test");
+      navigator.clipboard.writeText(selectedPrompt.content);
       setIsCopySuccess(true);
     } catch {
       setIsCopySuccess(false);
