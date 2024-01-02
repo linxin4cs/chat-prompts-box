@@ -1,3 +1,3 @@
-# Web Chat Prompts
+# Chat Prompts Box
 
-This is a web client to look for prompts fro ChatGPT.
+A web application to discover prompts for ChatGPT.
